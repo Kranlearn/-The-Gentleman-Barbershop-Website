@@ -1,7 +1,7 @@
 # 💈 The Gentleman — Barbershop Website
 
 Un site vitrine complet et professionnel pour un barbershop — construit en HTML, CSS et JavaScript pur. Design clair, moderne et élégant avec une touche dorée.
-
+Développé en synergie avec l'IA pour maximiser la vitesse de production det la qualité du code. 
 ---
 
 ## Aperçu
@@ -23,7 +23,7 @@ Un site vitrine complet et professionnel pour un barbershop — construit en HTM
 - **CSS** — variables, Grid, animations, responsive
 - **JavaScript** — vanilla, aucun framework
 - **Fonts** — Google Fonts (Playfair Display + Open Sans)
-
+Avec Collaboration IA pour l'optimisation
 ---
 
 ## Structure du projet
