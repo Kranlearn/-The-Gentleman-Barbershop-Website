@@ -37,6 +37,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // ── carnet form ─────────────────────────────────
 //logic du carnet de commande
+//information carnet de commande
 function submitBooking() {
   const name    = document.getElementById('bookName').value.trim();
   const phone   = document.getElementById('bookPhone').value.trim();
@@ -63,7 +64,7 @@ function submitBooking() {
   document.getElementById('bookDate').value    = '';
 }
 
-// ── Active nav link on scroll ────────────────────
+// ── Active nav connection des liens ────────────────────
 const sections = document.querySelectorAll('section[id]');
 
 window.addEventListener('scroll', () => {
@@ -82,6 +83,13 @@ window.addEventListener('scroll', () => {
     }
   });
 });
+// ── Loader ───────────────────────────────────────
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    document.getElementById('loader').classList.add('hidden');
+  }, 1800);
+});
+
 // ── Back to top ──────────────────────────────────
 const backToTop = document.getElementById('backToTop');
 
