@@ -41,6 +41,7 @@ barbershop/
 
 | Section | Description |
 |---------|-------------|
+| **Loader** | Page de chargement présentant le site |
 | **Hero** | Accroche, stats clés et appel à l'action |
 | **Services** | 6 prestations avec prix et icônes |
 | **À propos** | Histoire du barbier et valeurs |
